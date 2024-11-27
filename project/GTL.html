@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Video Game Quiz</title>
+    <link rel="stylesheet" href="GTL.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🎮 Video Game Quiz Challenge</h1>
+    </header>
+    <main>
+      <p class="intro-text">Click on a game logo to start the quiz!</p>
+      <div class="logo-container">
+        <img
+          src="../images/icons8-fortnite-llama-240.png"
+          alt="Fortnite"
+          class="game-logo"
+          id="game1"
+        />
+        <img
+          src="../images/icons8-formula-1-500.png"
+          alt="Formula 1"
+          class="game-logo"
+          id="game2"
+        />
+        <img
+          src="../images/icons8-rocket-league-240.png"
+          alt="Rocket League"
+          class="game-logo"
+          id="game3"
+        />
+        <img
+          src="../images/images.png"
+          alt="EAFC 25"
+          class="game-logo"
+          id="game4"
+        />
+        <img
+          src="../images/the crew.png"
+          alt="The Crew Motorfest"
+          class="game-logo"
+          id="game5"
+        />
+        <img
+          src="../images/images (2).png"
+          alt="NBA 2K25"
+          class="game-logo"
+          id="game6"
+        />
+        <img
+          src="../images/images (3).png"
+          alt="GTA 5"
+          class="game-logo"
+          id="game7"
+        />
+        <img
+          src="../images/brice-laville-saint-martin-clash-royale-app-icon-2020.png"
+          alt="Clash Royel"
+          class="game-logo"
+          id="game8"
+        />
+      </div>
+    </main>
+
+    <!-- Quiz Modal -->
+    <div class="quiz-modal" id="quizModal">
+      <div class="quiz-content">
+        <span class="close-btn" id="closeQuiz">&times;</span>
+        <h2 id="quizTitle">Quiz</h2>
+        <p id="quizQuestion">Question will appear here.</p>
+
+        <!-- Dynamic answer buttons -->
+        <div class="quiz-answers" id="quizAnswers"></div>
+
+        <p id="feedback" class="feedback"></p>
+
+        <!-- Navigation buttons -->
+        <div class="quiz-navigation">
+          <button id="prevQuestion" class="nav-btn">Previous</button>
+          <button id="nextQuestion" class="nav-btn">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+    <footer>
+      <p>Created with ❤️ for gamers</p>
+      <button id="homeButton" class="home-btn">🏠 Home</button>
+    </footer>
+
+    <script src="GTL.js"></script>
+  </body>
+</html>

@@ -1,0 +1,208 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #007BFF;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Contact Form */
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container .form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Success/Error Message */
+#form-message {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: green;
+    text-align: center;
+}
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.social-media h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Individual Colors for Each Icon */
+.social-icons a.facebook {
+    background-color: #3b5998; /* Facebook dark blue */
+    color: white;
+}
+
+.social-icons a.facebook:hover {
+    box-shadow: 0 0 10px #3b5998;
+    transform: scale(1.1);
+}
+
+.social-icons a.twitter {
+    background-color: #1DA1F2; /* Twitter cyan */
+    color: white;
+}
+
+.social-icons a.twitter:hover {
+    box-shadow: 0 0 10px #1DA1F2;
+    transform: scale(1.1);
+}
+
+.social-icons a.linkedin {
+    background-color: #0077b5; /* LinkedIn blue */
+    color: white;
+}
+
+.social-icons a.linkedin:hover {
+    box-shadow: 0 0 10px #0077b5;
+    transform: scale(1.1);
+}
+
+.social-icons a.instagram {
+    background-color: #E4405F; /* Instagram orange/pink gradient */
+    color: white;
+}
+
+.social-icons a.instagram:hover {
+    box-shadow: 0 0 10px #E4405F;
+    transform: scale(1.1);
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    color: #333;
+    padding: 20px;
+}
+
+/* Gradient Animation */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Contact Form - Glassmorphism */
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Home Button Styling */
+.home-button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.home-btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.home-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
